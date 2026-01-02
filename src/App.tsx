@@ -1,11 +1,10 @@
 import './App.css';
-import Header from './components/Header/Header';
+import DefaultLayout from './components/DefaultLayout/DefaultLayout';
 
 function App() {
   return (
     <>
-      <Header />
-      <div>Typescript React Project</div>
+      <DefaultLayout />
     </>
   );
 }
