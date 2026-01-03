@@ -1,0 +1,16 @@
+.layout-container {
+  position: relative;
+  min-height: 100vh;
+}
+
+.main-content {
+  min-height: 100vh;
+  position: relative;
+  z-index: 1;
+  padding-top: 0;
+  transition: padding-top 0.3s ease;
+}
+
+.main-content.sticky-offset {
+  padding-top: 80px; /* Adjust based on navbar height */
+}
