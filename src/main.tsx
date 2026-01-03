@@ -1,10 +1,15 @@
 import { StrictMode } from 'react';
 import { createRoot } from 'react-dom/client';
 import './index.css';
-import { createBrowserRouter, RouterProvider } from 'react-router-dom';
+import {
+  BrowserRouter,
+  createBrowserRouter,
+  RouterProvider,
+} from 'react-router-dom';
 import NotFoundPage from './pages/NotFoundPage/NotFoundPage';
 import DefaultLayout from './components/DefaultLayout/DefaultLayout';
 import Home from './pages/Home/Home';
+import About from './pages/About/About';
 
 const router = createBrowserRouter([
   {
@@ -15,6 +20,10 @@ const router = createBrowserRouter([
       {
         path: '/',
         element: <Home />,
+      },
+      {
+        path: '/about',
+        element: <About />,
       },
     ],
   },
