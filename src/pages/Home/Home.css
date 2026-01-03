@@ -2,7 +2,7 @@
     min-height: 100vh;
     background: linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%);
     background: linear-gradient(90deg,rgba(46, 40, 77, 1) 3%, rgba(15, 23, 42, 1) 38%, rgba(16, 39, 84, 1) 95%);
-    
+
     position: relative;
     overflow: hidden;
 }
@@ -41,7 +41,7 @@
     margin-bottom: 1rem;
     font-size: 3rem;
     font-weight: bold;
-    background: linear-gradient(45deg, #ff6b35, #ffd700);
+    background: linear-gradient(45deg, #1CC2E7, #a99002);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
@@ -58,7 +58,7 @@
     height: 300px;  
     border-radius: 50%;
     margin-bottom: 2rem;
-    border: 4px solid #ff6b35;
+    border: 4px solid #1CC2E7;
     box-shadow: 0 0 30px rgba(255, 107, 53, 0.4);
     position: relative;
     overflow: hidden;

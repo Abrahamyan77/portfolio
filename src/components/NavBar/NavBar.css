@@ -87,12 +87,21 @@
   transform: rotate(-45deg) translate(7px, -7px);
 }
 
-
+.home_content h2 {
+    margin-bottom: 1rem;
+    font-size: 3rem;
+    font-weight: bold;
+    background: linear-gradient(45deg, #1CC2E7, #a99002);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
 
 .logo {
+    color: #1CC2E7 ;
     font-size: 1.5rem;
     font-weight: bold;
-    color: #e0e0e0;
+    /* color: #e0e0e0; */
     cursor: pointer;
     transition: all 0.3s ease;
     overflow: hidden;
@@ -102,9 +111,10 @@
 }
 
 .logo:hover {
-    color: #ff6b35;
+    /*   #1CC2E7 */
+    color: #1CC2E7; 
     transform: scale(1.05) rotate(2deg);
-    text-shadow: 0 0 20px rgba(255, 107, 53, 0.8), 0 0 40px rgba(255, 107, 53, 0.6);
+    text-shadow: 0 0 20px rgba(28, 194, 231, 0.8), 0 0 40px rgba(28, 194, 231, 0.6);
     filter: brightness(1.2);
 }
 
@@ -148,6 +158,7 @@
 
 .nav-menu li {
     display: inline;
+    color: #0e2c6a; 
 }
 
 .nav-menu a {
@@ -159,7 +170,7 @@
 }
 
 .nav-menu a:hover {
-    color: #ff6b35;
+    color: #1CC2E7;
     transform: translateY(-2px);
 }
 
@@ -170,7 +181,7 @@
     height: 2px;
     bottom: -5px;
     left: 0;
-    background-color: #ff6b35;
+    background-color: #1CC2E7;
     transition: width 0.3s ease;
 }
 
@@ -184,7 +195,7 @@
     cursor: pointer;
 }
 .search-icon:hover {
-    color: #ff6b35;
+    color: #1CC2E7;
     transform: scale(1.2);
 }
 
